@@ -8,7 +8,12 @@
         <fieldDescription><![CDATA[exampleField]]></fieldDescription>
     </field>
     <background>
-        <band splitType="Stretch"/>
+        <band splitType="Stretch">
+            <!-- Background Color -->
+            <rectangle>
+                <reportElement x="0" y="0" width="802" height="595" backcolor="#006400"/>
+            </rectangle>
+        </band>
     </background>
     <detail>
         <band height="400" splitType="Stretch">
@@ -20,22 +25,22 @@
             
             <!-- Right Images forming a square -->
             <image>
-                <reportElement x="267" y="0" width="133" height="133"/>
+                <reportElement x="267" y="0" width="535" height="267"/>
                 <imageExpression><![CDATA["path_to_your_first_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="400" y="0" width="133" height="133"/>
+                <reportElement x="267" y="133" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_second_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="267" y="133" width="133" height="133"/>
+                <reportElement x="534" y="133" width="268" height="267"/>
                 <imageExpression><![CDATA["path_to_your_third_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="400" y="133" width="133" height="133"/>
+                <reportElement x="534" y="0" width="268" height="267"/>
                 <imageExpression><![CDATA["path_to_your_fourth_image.jpg"]]></imageExpression>
             </image>
         </band>
