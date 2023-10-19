@@ -16,32 +16,27 @@
             <image>
                 <reportElement x="0" y="0" width="267" height="400"/>
                 <imageExpression><![CDATA["path_to_your_left_image.jpg"]]></imageExpression>
-                <urlExpression><![CDATA["https://example.com/left_image"]]></urlExpression>
             </image>
             
             <!-- Right Images forming a square -->
             <image>
-                <reportElement x="267" y="0" width="267" height="267"/>
+                <reportElement x="267" y="0" width="133" height="133"/>
                 <imageExpression><![CDATA["path_to_your_first_image.jpg"]]></imageExpression>
-                <urlExpression><![CDATA["https://example.com/first_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="267" y="133" width="267" height="267"/>
+                <reportElement x="400" y="0" width="133" height="133"/>
                 <imageExpression><![CDATA["path_to_your_second_image.jpg"]]></imageExpression>
-                <urlExpression><![CDATA["https://example.com/second_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="534" y="0" width="267" height="267"/>
+                <reportElement x="267" y="133" width="133" height="133"/>
                 <imageExpression><![CDATA["path_to_your_third_image.jpg"]]></imageExpression>
-                <urlExpression><![CDATA["https://example.com/third_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="534" y="133" width="267" height="267"/>
+                <reportElement x="400" y="133" width="133" height="133"/>
                 <imageExpression><![CDATA["path_to_your_fourth_image.jpg"]]></imageExpression>
-                <urlExpression><![CDATA["https://example.com/fourth_image"]]></urlExpression>
             </image>
         </band>
     </detail>
