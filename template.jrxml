@@ -14,29 +14,34 @@
         <band height="400" splitType="Stretch">
             <!-- Left Image -->
             <image>
-                <reportElement x="0" y="0" width="400" height="400"/>
+                <reportElement x="0" y="0" width="267" height="400"/>
                 <imageExpression><![CDATA["path_to_your_left_image.jpg"]]></imageExpression>
+                <urlExpression><![CDATA["https://example.com/left_image"]]></urlExpression>
             </image>
             
             <!-- Right Images forming a square -->
             <image>
-                <reportElement x="400" y="0" width="200" height="200"/>
+                <reportElement x="267" y="0" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_first_image.jpg"]]></imageExpression>
+                <urlExpression><![CDATA["https://example.com/first_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="400" y="200" width="200" height="200"/>
+                <reportElement x="267" y="133" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_second_image.jpg"]]></imageExpression>
+                <urlExpression><![CDATA["https://example.com/second_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="600" y="0" width="200" height="200"/>
+                <reportElement x="534" y="0" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_third_image.jpg"]]></imageExpression>
+                <urlExpression><![CDATA["https://example.com/third_image"]]></urlExpression>
             </image>
             
             <image>
-                <reportElement x="600" y="200" width="200" height="200"/>
+                <reportElement x="534" y="133" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_fourth_image.jpg"]]></imageExpression>
+                <urlExpression><![CDATA["https://example.com/fourth_image"]]></urlExpression>
             </image>
         </band>
     </detail>
