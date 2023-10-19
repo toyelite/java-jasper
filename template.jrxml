@@ -55,4 +55,10 @@
                 
                 <!-- Additional Image -->
                 <image>
-                    <reportElement x="0
+                    <reportElement x="0" y="200" width="400" height="100"/>
+                    <imageExpression><![CDATA["path_to_your_additional_image.jpg"]]></imageExpression>
+                </image>
+            </frame>
+        </band>
+    </detail>
+</jasperReport>
