@@ -11,7 +11,7 @@
         <band splitType="Stretch">
             <!-- Background Color -->
             <rectangle>
-                <reportElement x="0" y="0" width="802" height="595" backcolor="#006400"/>
+                <reportElement x="0" y="0" width="802" height="595" backcolor="#006400" positionType="FixRelativeToBottom"/>
             </rectangle>
         </band>
     </background>
@@ -19,28 +19,28 @@
         <band height="400" splitType="Stretch">
             <!-- Left Image -->
             <image>
-                <reportElement x="0" y="0" width="267" height="400"/>
+                <reportElement x="0" y="0" width="267" height="534"/>
                 <imageExpression><![CDATA["path_to_your_left_image.jpg"]]></imageExpression>
             </image>
             
             <!-- Right Images forming a square -->
             <image>
-                <reportElement x="267" y="0" width="535" height="267"/>
+                <reportElement x="267" y="0" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_first_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="267" y="133" width="267" height="267"/>
+                <reportElement x="267" y="267" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_second_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="534" y="133" width="268" height="267"/>
+                <reportElement x="534" y="267" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_third_image.jpg"]]></imageExpression>
             </image>
             
             <image>
-                <reportElement x="534" y="0" width="268" height="267"/>
+                <reportElement x="534" y="0" width="267" height="267"/>
                 <imageExpression><![CDATA["path_to_your_fourth_image.jpg"]]></imageExpression>
             </image>
         </band>
